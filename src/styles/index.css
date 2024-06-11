@@ -31,20 +31,40 @@
   border-radius: 5px;
 }
 
-.traffic-light div {
+.red {
+  background-color: red;
   width: 130px;
   height: 130px;
   border-radius: 50%;
   margin: 10px;
 }
-.red {
-  background-color: red;
-}
 .yellow {
   background-color: yellow;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 10px;
 }
 .green {
   background-color: green;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.visibility {
+  background-color: purple;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.button-modifiers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
 }
 
 .light-on {
